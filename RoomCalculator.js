@@ -38,5 +38,19 @@ volElm.innerText = " Volume : " + volume;
 console.log("Area : " + area);
 console.log(`Perimeter : ${perimeter}`);
 console.log(`Volume : ${volume}`);
+
+
+let h2Array = document.querySelectorAll("h2");
+
+for (h2 of h2Array) {
+
+    h2.style.color = "blue";
+
+}
+
+
+
+
+
 }
 
